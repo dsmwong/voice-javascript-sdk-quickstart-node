@@ -70,6 +70,7 @@
       // Set Opus as our preferred codec. Opus generally performs better, requiring less bandwidth and
       // providing better audio quality in restrained network conditions. Opus will be default in 2.0.
       codecPreferences: ["opus", "pcmu"],
+      edge: "sydney"
     });
 
     addDeviceListeners(device);

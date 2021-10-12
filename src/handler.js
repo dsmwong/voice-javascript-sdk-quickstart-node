@@ -16,6 +16,7 @@ exports.tokenGenerator = function tokenGenerator() {
     config.apiSecret
   );
   accessToken.identity = identity;
+  accessToken.region = 'au1';
   const grant = new VoiceGrant({
     outgoingApplicationSid: config.twimlAppSid,
     incomingAllow: true,
